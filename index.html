@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tau Riviera</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-991.css">
+	<link rel="stylesheet" type="text/css" href="css/style-767.css">
+	<link rel="stylesheet" type="text/css" href="css/style-479.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style-other.css">
+	<link rel="stylesheet" type="text/css" href="css/style-modals.css">
+	<style>
+		[class*="ymaps-2"][class*="-ground-pane"] {
+			filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+			-webkit-filter: grayscale(100%);
+		}
+	</style>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="https://unpkg.com/imask"></script>
+
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="sidebar change-position-sidebar">
+		<div class="sidebar-content">
+			<a class="header-menu__link" href="#about"><li class="header-menu__link" >О проекте</li></a>
+			<a class="header-menu__link" href="#choose-room"><li class="header-menu__link">Выбрать квартиру</li></a>
+			<a class="header-menu__link" href="#"><li class="header-menu__link">Условия покупки</li></a>
+			<a class="header-menu__link" href="#contacts"><li class="header-menu__link">Контакты</li></a>
+		</div>
+		<div class="sidebar__close">
+		  <div class="close-icon-line"></div>
+		  <div class="close-icon-line1"></div>
+		</div>
+	  </div>
+
+	<div class="header">
+		<div class="header-wrp">
+			<div class="header-mobile__btn main-content__btn">
+				<div class="header-mobile__line"></div>
+				<div class="header-mobile__line"></div>
+				<div class="header-mobile__line"></div>
+			</div>
+			<div class="header-logo">
+				<img class="header-logo__img" src="images/tau-riviera.svg" alt="Tau Riviera">
+			</div>	
+			<div class="header-menu" id="menu">
+				<ul class="header-menu__list">
+					<a class="header-menu__link" href="#about"><li class="header-menu__link" >О проекте</li></a>
+					<a class="header-menu__link" href="#choose-room"><li class="header-menu__link">Выбрать квартиру</li></a>
+					<a class="header-menu__link" href="#"><li class="header-menu__link">Условия покупки</li></a>
+					<a class="header-menu__link" href="#contacts"><li class="header-menu__link">Контакты</li></a>
+				</ul>
+			</div>	
+			<div class="header-contact">
+				<a class="contact-link" href="tel:250">
+					<div class="contact-link__wrp-img">
+						<img class="contact-link__img" src="images/phone-white-icon.svg" alt="phone">
+					</div>
+					<p class="contact-link__text-250">250</p>
+					<p  class="contact-link__text-free">бесплатно <br>с мобильного</p>
+				</a>
+				<div class="header_btn text-uppercase text-left popup_engineer_btn modal-link">
+					Получить консультацию
+				</div>
+				<!-- <a href="#" data-hystmodal="#myModal">Открыть окно</a> -->
+			</div>
+			<div class="header-mobile-whatsapp-btn popup_engineer_btn"></div>
+		</div>
+	</div>
+
+	<div class="hero">
+		<div class="s1-top-gradient"></div>
+		<div class="s1-bottom-gradient"></div>
+		<div class="hero-wrp">
+			<div class="hero-content">
+				<h2 class="hero-content__caption">Tau Riviera</h2>
+				<div class="hero-content__subtitle">Формат жизни у моря</div>
+			</div>
+		</div>
+	</div>
+	 <div class="about" id="about">
+		<div class="section-wrp">
+			<p class="about-left__subtitle">Локация</p>
+			<h2 class="about-left__caption">ПЕРСПЕКТИВА РАЗВИТИЯ</h2>
+			<div class="about-content">
+				<div class="about-left">
+					<p class="about-left__text">
+						Tau Riviera расположен на&nbsp;полуострове Vama Veche, в&nbsp;новом туристическом центре&nbsp;&mdash; он&nbsp;является частью масштабного освоения территории (130&nbsp;га), в&nbsp;целях которого обеспечить гостей лучшим сервисом и&nbsp;разнообразием развлекательных зон. Летом 2021&nbsp;года, на&nbsp;полуострове запланировано открытие тематического парка (с&nbsp;водными, наземными и&nbsp;воздушными аттракционами) и&nbsp;курортного гольф-клуба, площадью в&nbsp;24,6&nbsp;га; а&nbsp;уже сейчас доступен для посещения пятизвездочный отель Xiros Water Tortoise Tau. Освоением Vama Veche занимается SML&nbsp;Construction, которая для создания туристического центра европейского уровня на&nbsp;каспийском побережье, пригласила партнеров, одним из&nbsp;которых является JO&nbsp;Group.
+					</p>
+					<div class="about-brand-block">
+						<div class="about-left__bi-brand">
+							<img class="image" src="images/jo-group-logo-1.svg" alt="jo">
+						</div>
+						<div class="about-left__sml-brand">
+							<img class="image" src="images/sml-logo.png" alt="sml">
+						</div>
+					</div>
+				</div>
+				<div class="about-right">
+					<div class="about-right__wrp-img">
+						<img class="about-right__img" src="images/successful-presentation-1.jpg" alt="Подписание партнерского соглашения">
+					</div>
+					<div class="about-right__img-description">
+						Подписание партнерского соглашения по освоению полуострова Vama Veche (Президент компании Dignissimos Doret, основатель турецкой сети Xiros Water Tortoise Tau; Основатель и руководитель строительного холдинга JO Group).
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bird">
+		<div class="bird-wrp">
+			<div class="map-content">
+				<div class="map-div">
+					<div class="map-note-div">
+						<div class="map-note-block map-note-block--promenad">
+							<div class="map-note-block__img">
+								<img src="images/icon-walk.png" alt="Прогулка" class="img">
+							</div>
+							<p class="map-note-block__text">Туристический<br> променад</p>
+						</div>
+						<div class="map-note-block map-note-block--rixos">
+							<div class="map-note-block__img">
+								<img src="images/icon-hotel.png" alt="Отель" class="img">
+							</div>
+							<p class="map-note-block__text">Xiros Water <br>Tortoise Tau</p>
+						</div>
+						<div class="map-note-block map-note-block--park">
+							<div class="map-note-block__img">
+								<img src="images/icon-park.png" alt="Парк" class="img">
+							</div>
+							<p class="map-note-block__text">Тематический парк</p>
+						</div>
+						<div class="map-note-block map-note-block--golf">
+							<div class="map-note-block__img">
+								<img src="images/icon-hotel.png" alt="Парк" class="img">
+							</div>
+							<p class="map-note-block__text">Гольф поле</p>
+						</div>
+						<div class="map-note-block map-note-block--parking">
+							<div class="map-note-block__img">
+								<img src="images/icon-parking.png" alt="Паркинг" class="img">
+							</div>
+							<p class="map-note-block__text">Торговые ряды и <br>Паркинг III/2021</p>
+						</div>
+						<div class="map-note-block map-note-block--otel1">
+							<div class="map-note-block__img">
+								<img src="images/icon-hotel.png" alt="Отель" class="img">
+							</div>
+							<p class="map-note-block__text">Отель</p>
+						</div>
+						<div class="map-note-block map-note-block--otel2">
+							<div class="map-note-block__img">
+								<img src="images/icon-hotel.png" alt="Отель" class="img">
+							</div>
+							<p class="map-note-block__text">Жилая недвижимость</p>
+						</div>
+						<div class="map-note-block map-note-block--otel3">
+							<div class="map-note-block__img">
+								<img src="images/icon-hotel.png" alt="Отель" class="img">
+							</div>
+							<p class="map-note-block__text">Отель</p>
+						</div>
+						<div class="map-note-block map-note-block--tau">
+							<div class="map-note-block__aktau-img">
+								<img src="images/icon-aktau-rivera.png" alt="Tau" class="img">
+							</div>
+							<p class="map-note-block__aktau-text">Tau Riviera</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="shema-btn">Схема перспективы района</button>
+		</div>
+	</div>
+
+	<div class="slider">
+		<div class="section-wrp">
+			<div class="section-subtitle">О проекте</div>
+			<div class="section-title">ВСЕ ДЛЯ ВАШЕГО <br>ОТДЫХА РЯДОМ</div>
+			<div class="owl-carousel owl-carousel-slider owl-theme">
+				<div class="slider-item">
+					<img src="images/slider/golf-field.jpg" class="img" alt="">
+					<p class="slider-item__text">Курортный гольф клуб</p>
+				</div>
+				<div class="slider-item">
+					<img src="images/slider/hotel-rixos.jpg" class="img" alt="">
+					<p class="slider-item__text">Торговая галерея<br> Shopping Avenyu</p>
+				</div>
+				<div class="slider-item">
+					<img src="images/slider/slide6.jpg" class="img" alt="">
+					<p class="slider-item__text">Международный отель<br> Rixos Water World</p>
+				</div>
+				<div class="slider-item">
+					<img src="images/slider/slide7.jpg" class="img" alt="">
+					<p class="slider-item__text">Международный отель<br> Rixos Water World</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="desc">
+		<div class="section-wrp">
+			<div class="section-subtitle">TauRiviera</div>
+			<div class="section-title">О проекте</div>
+			<div class="desc-content">
+				<div class="desc-left">
+					<p class="desc-left__text">
+						Tau Riviera – это апартаменты и виллы, расположенные на берегу моря.<br>
+						Проект имеет продуманную территорию с прямым выходом к морю, а также ресторан, playroom и SPA-зону.<br>
+						Новый уровень отдыха для Вас и Вашей семьи – наслаждайтесь освежающим морским климатом, занимайтесь спортом, медитируйте на берегу или поужинайте всей семьей в ресторане – здесь Вы найдете отдых по душе.
+					</p>
+					<a class="desc-left__btn" href="images/test.pdf" download target="_blank">Скачать электронный буклет</a>
+				</div>	
+				<div class="desc-right">
+					<div class="desc-item">
+						<div class="desc-item__img">
+							<img class="img" src="images/desc/icon-otdelka.svg">
+						</div>
+						<div class="item-texts">
+							<div class="desc-right__title">Чистовая отделка</div>
+							<div class="desc-right__text">Все апартаменты и виллы предоставляются владельцам уже в чистовой отделке</div>
+							<div class="desc-right__subtitle">Меблировка и освещение не включены в чистовую отделку</div>
+						</div>
+					</div>
+					<div class="desc-item">
+						<div class="desc-item__img">
+							<img class="img" src="images/desc/icon-bassein.svg">
+						</div>
+						<div class="item-texts">
+							<div class="desc-right__title">Бассейн</div>
+							<div class="desc-right__text">Открытый бассейн во дворе апартаментов; персональный у каждой виллы</div>
+						</div>
+					</div>
+					<div class="desc-item">
+						<div class="desc-item__img">
+							<img class="img" src="images/desc/icon-umniy-dom.svg">
+						</div>
+						<div class="item-texts">
+							<div class="desc-right__title">Умный дом</div>
+							<div class="desc-right__text">Базовый пакет от Bected Home</div>
+							<div class="desc-right__subtitle">Только для вилл*</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<div class="facade">
+		<div class="facade-wrp">
+			<div class="facade-content">
+
+				<div class="facade-empty">
+					
+				</div>
+				<div class="facade-prop">
+					<div class="facade__subtitle">Фасад</div>
+					<div class="facade__title">ВЫБОР <br> ЭСТЕТОВ</div>
+					<div class="prop-item">
+						<div class="prop-item__title">Каркас - </div>
+						<div class="prop-item__subtitle">монолитный железобетон</div>
+						<div class="facade-prop__line"></div>
+					</div>
+					<div class="prop-item">
+						<div class="prop-item__title">Стены - </div>
+						<div class="prop-item__subtitle">газоблок</div>
+						<div class="facade-prop__line"></div>
+					</div>
+					<div class="prop-item">
+						<div class="prop-item__title">Фасад - </div>
+						<div class="prop-item__subtitle">навесные&nbspфасадные панели</div>
+						<div class="facade-prop__line"></div>
+					</div>
+					<div class="prop-item">
+						<div class="prop-item__title">Окна  - </div>
+						<div class="prop-item__subtitle">двухкамерный&nbspпрофиль<br> со&nbspстеклопакетом</div>
+						<div class="facade-prop__line"></div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="design">
+		<div class="section-wrp">
+			<div class="section-subtitle">Архитектура</div>
+			<div class="section-title">Внешний дизайн</div>
+			<div class="design-content">
+				<div class="design-desc-block">
+					<div class="design-desc-block__text">Апартаменты и виллы выполнены в лаконичном европейском стиле, с увеличенными и панорамными окнами; а приятное дополнение ко всему – доступность домов сразу в чистовой отделке.</div>
+				</div>
+			</div>
+			<div class="design-tab-menu tab-buttons1">
+				<div class="design-tab-menu__btn tab-button1">Виллы</div>
+				<div class="design-tab-menu__btn tab-button1">Апартаменты</div>
+			</div>
+		</div>
+		<div class="design-slider-wrp owl-carousel owl-carousel-3 owl-theme content1">
+			<div class="design-slider design-slider-1 item">
+				<div class="design-slider-txt-block">
+					<p class="design-slider__caption">Виллы</p>
+					<p class="design-slider__text">Рассчитанные на две семьи, каждая половина имеет отдельный вход, с придомовой территорией, панорамные окна и открытые лоджии. Площадь дуплексов – до 157 м²</p>
+				</div>
+			</div>
+			<div class="design-slider design-slider-2 item">
+				<div class="design-slider-txt-block">
+					<p class="design-slider__caption">Дуплексы</p>
+					<p class="design-slider__text">Рассчитанные на две семьи, каждая половина имеет отдельный вход, с придомовой территорией, панорамные окна и открытые лоджии. Площадь дуплексов – до 157 м²</p>
+				</div>
+			</div>
+			<div class="design-slider design-slider-3 item">
+				<div class="design-slider-txt-block">
+					<p class="design-slider__caption">Таунхаусы</p>
+					<p class="design-slider__text">Таунхаусы – виллы на три семьи – сохранили все преимущества европейского уюта и приватности: отдельный вход, панорамные окна, бассейн, а также площадь – до 124 м²</p>
+				</div>
+			</div>
+		</div>
+		<div class="design-slider-wrp owl-carousel owl-carousel-3 owl-theme content1">
+			<div class="design-slider design-slider-1 item">
+				<div class="design-slider-txt-block">
+					<p class="design-slider__caption">Виллы2</p>
+					<p class="design-slider__text">Рассчитанные на две семьи, каждая половина имеет отдельный вход, с придомовой территорией, панорамные окна и открытые лоджии. Площадь дуплексов – до 157 м²</p>
+				</div>
+			</div>
+			<div class="design-slider design-slider-2 item">
+				<div class="design-slider-txt-block">
+					<p class="design-slider__caption">Дуплексы2</p>
+					<p class="design-slider__text">Рассчитанные на две семьи, каждая половина имеет отдельный вход, с придомовой территорией, панорамные окна и открытые лоджии. Площадь дуплексов – до 157 м²</p>
+				</div>
+			</div>
+			<div class="design-slider design-slider-3 item">
+				<div class="design-slider-txt-block">
+					<p class="design-slider__caption">Таунхаусы2</p>
+					<p class="design-slider__text">Таунхаусы – виллы на три семьи – сохранили все преимущества европейского уюта и приватности: отдельный вход, панорамные окна, бассейн, а также площадь – до 124 м²</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="advant">
+		<div class="section-wrp">
+			<div class="advant-content">
+				<div class="advant-item">
+					<div class="advant-item__img">
+						<img class="img" src="images/advant/icon-comf-01.png" alt="">
+					</div>
+					<p class="advant-item__text">Чистовая отделка</p>
+				</div>
+				<div class="advant-item">
+					<div class="advant-item__img">
+						<img class="img" src="images/advant/icon-comf-02.png" alt="">
+					</div>
+					<p class="advant-item__text">Потолки до 3,3 м</p>
+				</div>
+				<div class="advant-item">
+					<div class="advant-item__img">
+						<img class="img" src="images/advant/icon-comf-03.svg" alt="">
+					</div>
+					<p class="advant-item__text">Витражное остекление</p>
+				</div>
+				<div class="advant-item">
+					<div class="advant-item__img">
+						<img class="img" src="images/advant/icon-comf-04.png" alt="">
+					</div>
+					<p class="advant-item__text">Открытые террасы</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="form">
+		<div class="form-content">
+			<div class="form__title">ПЕРЕЗВОНИМ В&nbsp;ТЕЧЕНИЕ НЕСКОЛЬКИХ&nbsp;МИНУТ</div>
+			<div class="form__subtitle">Менеджер свяжется с Вами, и поможет сделать правильный&nbsp;выбор</div>
+			<div class="form-inputs">
+				<input class="form-input" type="text" placeholder="Ваше имя">
+				<input class="form-input" id="popup-form__phone" type="text" placeholder="+7 ( ">
+			</div>
+			<button class="form__btn">Получить консультацию</button>
+		</div>
+	</div>
+
+	<div class="plan" id="choose-room">
+
+		<div class="section-wrp">
+			<div class="section-subtitle">Подбор планировки</div>
+			<div class="section-title">Выберите свое пространство</div>
+
+			
+			<div class="calc-wrp" id="client">
+							<label class="calc-subtitle">Тип помещения</label>
+							<div class="tab-change__buttons">
+								<button @click="changeTab(1)" :class="{ activeBtn: showApartament }" class="tab-change__button">Апартаменты</button> 
+								<button @click="changeTab(2)" :class="{ activeBtn: !showApartament }" class="tab-change__button">Виллы</button>
+							</div>
+
+							<div class="calc-body" v-if="showApartament">
+								<div class="calc-div">
+									<div class="form-block w-form">
+										<form id="email-form" name="email-form" data-name="Email Form">
+											<label for="name-2" class="calc-subtitle">Кол-во комнат</label> 
+											<div class="calc-div">
+												<div class="calc-rooms-div">
+													<template v-for="(room, index) in rooms">
+														<a href="#" @click.prevent="selectRoom(index)" :class="'calc-rooms ' + (index === selectRoomIndex ? 'activeBtn' : '')">{{room.room}}-х комнатные 
+														</a>
+													</template> 
+												</div>
+												<div class="tabs-rooms-content"><label for="name-2" class="calc-subtitle">Площадь</label>
+													<div class="tabs-meters">
+														<div class="calc-meters-div" v-if="selectedRoom">
+															<template v-for="(room, index) in selectedRoom">
+																<a href="#" @click.prevent="selectSquare(index)" :class="'calc-meters ' + (index === selectSquareIndex ? 'activeBtn' : '')">{{room.square}} м²
+																</a>
+															</template>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="calc-img-div">
+								<img :src="`images/planirovki/${selectedSquare.img}`+'.png'" alt="" @error="setAltImg" class="calc-img">
+								<a class="all-plan-link">Просмотреть все планировки</a>
+							</div>
+							<div class="calc-img-div" v-if="!showApartament">
+								<img @click="openedModal" :src="`images/planirovki/${selectedSquare.img}`+'.png'" @error="setAltImg" alt="" class="calc-img">
+								<!-- <button id="show-modal" @click="openedModal" class="button about-btn w-button zoom-icon ">Увеличить</button> -->
+								<!-- <a class="all-plan-link">Просмотреть все планировки</a> -->
+							  </div>
+							<div class="tabs-meters-content" v-if="selectedSquare">
+								<div class="calc-div">
+									<div class="calc-result-rooms">{{selectRoomIndex + 1}}-х комнатная</div> 
+									<div class="calc-result-div">
+										<div class="calc-result-block">
+											<div class="calc-result">{{selectedSquare.square}} м²</div>
+											<div class="calc-result-note">площадь</div>
+										</div>
+										<div class="calc-result-block">
+											<div class="calc-result">{{selectedSquare.queue}}</div>
+											<div class="calc-result-note">очередь</div>
+										</div>
+										<div class="calc-result-block">
+											<div class="calc-result">{{selectedSquare.deadLineYear}}/{{selectedSquare.deadLineQuarter}} квартал</div>
+											<div class="calc-result-note">дата сдачи</div>
+										</div>
+									</div>
+									<label for="name-2" class="calc-field">стоимость</label>
+									<div class="tabs-result-price-div">
+										<div class="calc-result-price">По запросу<span class="star2"></span></div>
+									</div>
+							</div>
+						</div>
+						<div class="calc-body" v-if="!showApartament">
+			    <div class="calc-div">
+			    	<div class="form-block w-form">
+			    		<form id="email-form" name="email-form" data-name="Email Form">
+			    			<div class="calc-div">
+			              <div class="tabs-rooms-content"><label for="name-2" class="calc-subtitle">Площадь</label>
+			              	<div class="tabs-meters">
+			              		<div class="calc-meters-div" v-if="selectedRoom">
+			              			<template v-for="(square, index) in selectedRoom">
+			              				<a href="#" @click.prevent="selectSquare(index)" :class="'calc-meters ' + (index === selectSquareIndex ? 'activeBtn' : '')">{{square.square}} м²
+			              				</a>
+			              			</template>
+			              		</div>
+			              </div>
+			          </div>
+			      </div>
+			  </form>
+			</div>
+			</div>
+				<!-- <div class="calc-img-div">
+					<img @click="openedModal" :src="`images/planirovki/${selectedSquare.img}`+'.png'" @error="setAltImg" alt="" class="calc-img">
+					<button id="show-modal" @click="openedModal" class="button about-btn w-button zoom-icon ">Увеличить</button>
+					<a class="all-plan-link">Просмотреть все планировки</a>
+				</div> -->
+				<div class="tabs-meters-content" v-if="selectedSquare">
+					<div class="calc-div">
+						<div class="calc-result-div">
+							<div class="calc-result-block">
+								<div class="calc-result">{{selectedSquare.square}} м²</div>
+								<div class="calc-result-note">площадь</div>
+							</div>
+							<div class="calc-result-block">
+								<div class="calc-result">{{selectedSquare.queue}}</div>
+								<div class="calc-result-note">очередь</div>
+							</div>
+							<div class="calc-result-block">
+								<div class="calc-result">{{selectedSquare.deadLineYear}}/{{selectedSquare.deadLineQuarter}} квартал</div>
+								<div class="calc-result-note">дата сдачи</div>
+							</div>
+						</div>
+						<label for="name-2" class="calc-field">стоимость</label>
+						<div class="tabs-result-price-div">
+							<div class="calc-result-price">По запросу<span class="star"></span></div>
+						</div>
+					</div>
+				</div>
+				<modal v-if="showModal" @close="openedModal">
+					<p>text</p>
+					<h3 slot="header"></h3>
+					<div slot="body">
+						<span class="zoom" id="ex2">
+							<img :src="`images/planirovki/${selectedSquare.img}`+'.png'" alt="" @error="setAltImg" class="calc-img img1">
+						</span>
+						<span class="zoom" id="ex1">
+							<img :src="`images/planirovki/${selectedSquare.img}`+'.png'" @error="setAltImg" alt="" class="calc-img img2">
+						</span>
+			    </div>
+			</modal>
+			</div>
+			</div>
+			
+		</div>
+
+	</div>
+
+	<div class="footer" id="contacts">
+		<div class="section-wrp">
+			<div class="footer-content">
+				<div class="section-subtitle">Контакты</div>
+				<div class="section-title">мы ждем вас</div>
+				<div class="footer-tab-wrp">
+					<div class="footer-tab-menu tab-buttons">
+						<div class="footer-tab w--current tab-button">Сомбатхей</div>
+						<div class="footer-tab tab-button">Анкара</div>
+						<div class="footer-tab tab-button">Кельце</div>
+						<div class="footer-tab tab-button">Каунас</div>
+					</div>
+					<div class="footer-tab-content tab-content">
+						<div class="footer-tab-div content">
+							<div class="contact-place-full">
+								<div class="contact-block-half">
+									<div class="contact-underline"></div>
+									<div class="contact-place-name">БЦ Ferenc</div>
+									<div>ул. Скаба, 12<br>250 (с мобильного бесплатно)<br><br>Пн.–Пт.: с 9:00 до 20:00<br>Сб.–Вс.: c 10:00 по 18:00<br><br>Касса:<br>Пн-Пт: с 09:00 до 19:00<br>Сб-Вс: с 10:00 до 17:00</div>
+								</div>
+								<div class="contact-block-half">
+									<div class="contact-underline"></div>
+									<div class="contact-place-name">ОП&nbsp;Zanati</div>
+									<div>ул. Гелерт, д.30<br>250 (с мобильного бесплатно)<br><br>Пн.–Пт.: с 9:00 до 20:00<br>Сб.–Вс.: c 10:00 по 18:00</div>
+								</div>
+								<div class="contact-div">
+									<div class="contact-txt-div">
+										<div class="contact-subtitle">Перезвоним в течение нескольких минут</div>
+										<div class="contact-txt">Менеджер свяжется с Вами, и поможет сделать правильный выбор</div>
+									</div>
+									<div class="contact-btn-div">
+										<a href="tel:250" class="phone-link txt-fonts w-inline-block">
+											<img src="https://uploads-ssl.webflow.com/600ab00d0927ba41bec829b9/600ab00d0927ba3e2ac829cf_phone-link-icon.svg" alt="" class="phone-link-icon">
+											<div class="phone-link-250">250</div>
+											<div class="s1-phone-txt2 s1-phone-txt2--bot">Бесплатно<br>с мобильного</div>
+										</a>
+										<div class="contact-spacer"></div>
+
+										<a data-remodal-target="modal" href="#" class="button-icon-on-dark header_btn text-uppercase text-left popup_engineer_btn">Получить консультацию</a>
+									</div>
+									<div class="s16-border-line"></div>
+								</div>
+							</div>
+							<div class="contact-map-div">
+								<div id="map1" style="width: 100%; height: 100%"></div>
+							</div>
+						</div>
+
+						<div class="footer-tab-div content">
+							<div class="contact-place-full">
+								<div class="contact-block-half">
+									<div class="contact-underline"></div>
+									<div class="contact-place-name">БЦ Самур</div>
+									<div>ул. Самур 43, БЦ Kida Plaza<br>250 (с мобильного бесплатно)<br><br>Пн.–Пт.: с 10:00 до 18:00<br>Сб.–Вс.: c 10:00 по 14:00<br><br>Касса:<br>Пн-Пт: с 08:00 до 18:00<br>Сб-Вс: с 10:00 до 17:00</div>
+								</div>
+								<div class="contact-block-half">
+									<div class="contact-underline"></div>
+									<div class="contact-place-name">ОП&nbsp;Xakan</div>
+									<div>ул. Язган, д.50<br>250 (с мобильного бесплатно)<br><br>Пн.–Пт.: с 9:00 до 20:00</div>
+								</div>
+							</div>
+							<div class="contact-map-div">
+								<div id="map2" style="width: 100%; height: 100%"></div>
+							</div>
+						</div>
+
+						<div class="footer-tab-div content">
+							<div class="contact-place-full">
+								<div class="contact-block-half">
+									<div class="contact-underline"></div>
+									<div class="contact-place-name">БЦ Stakom</div>
+									<div>ул. Проста, 52 <br>250 (с мобильного бесплатно)<br><br>Пн.–Пт.: с 9:00 до 20:00<br>Сб.–Вс.: выходной<br></div>
+								</div>
+							</div>
+							<div class="contact-map-div">
+								<div id="map3" style="width: 100%; height: 100%"></div>
+							</div>
+						</div>
+
+						<div class="footer-tab-div content">
+							<div class="contact-place-full">
+								<div class="contact-block-half">
+									<div class="contact-underline"></div>
+									<div class="contact-place-name">ОП Raubis</div>
+									<div>ул. Жвейу<br>250 (с мобильного бесплатно)<br><br>Пн.–Пт.: с 9:00 до 20:00<br>Сб.–Вс.: выходной<br></div>
+								</div>
+							</div>
+							<div class="contact-map-div">
+								<div id="map4" style="width: 100%; height: 100%"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="bottom">
+		<div class="bottom-wrp">
+			<div class="bottom-content">
+				<div class="bi-group-logo-div">	
+					<div class="bottom-logo__image">
+						<img src="images/jo-group-logo-1.svg" class="img" alt="">
+					</div>
+					<div class="bottom__text">
+						JO Group — крупный строительный холдинг, лидер на рынке недвижимости Буркина-Киншаса. 
+						Холдинг работает с 1993 года, и за это время заслужил репутацию профессионала и надежного партнера.
+					</div>
+				</div>
+				<div class="bottom-social">
+					<div class="bottom-social__img">
+						<img src="images/bottom/soc-icon-1.svg" class="img" alt="Вконтакте">
+					</div>
+					<div class="bottom-social__img">
+						<img src="images/bottom/soc-icon-2.svg" class="img" alt="Одноклассники">
+					</div>
+					<div class="bottom-social__img">
+						<img src="images/bottom/soc-icon-3.svg" class="img" alt="Фейсбук">
+					</div>
+					<div class="bottom-social__img">
+						<img src="images/bottom/soc-icon-4.svg" class="img" alt="Инстаграм">
+					</div>
+					<div class="bottom-social__img">
+						<img src="images/bottom/soc-icon-5.svg" class="img" alt="Ютуб">
+					</div>
+					<div class="bottom-social__img">
+						<img src="images/bottom/soc-icon-6.svg" class="img" alt="Твитер">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<div class="disclaimer">
+		<div class="disclaimer-wrp">
+			<div class="disclaimer-content">
+				Изображения благоустройства, фасадов, интерьера, применяемых материалов, планировочных решений квартир, 
+				паркинга, их нумерация,инфраструктура комплекса являются условными и могут быть изменены в ходе строительства и эксплуатации.
+				Настоящий рекламный материал в соответствиe со ст. 197 ГК РК не является публичной офертой.
+				Ab vel incidunt praesentium commodi assumenda. Exercitationem suscipit nihil nostrum, repellendus aut voluptatem enim ullam fuga expedita similique saepe quo nemo ex.
+			</div>
+		</div>
+	</div>
+
+	<div class="popup" data-modal>
+		<div class="popup_dialog">
+			<div class="popup_content">
+				<!-- <button type="button" class=""></button> -->
+				<div class="popup_close btn-desktop-close popup__btn-close">
+					<div class="btn-close-line"></div>
+					<div class="btn-close-line2"></div>
+				</div>
+				<h2 class="popup__title">Заказать звонок</h2>
+				<p class="popup__subtitle">Рады ответить на все вопросы</p>
+				<input class="popup__input form-control form_input" name="user_name" required type="text" placeholder="Введите ваше имя">
+				<input class="popup__input form-control form_input" name="user_phone" required type="text" placeholder="Введите телефон">
+				<button class="popup__btn button-icon-on-dark" name="submit" type="submit">Заказать звонок</button>
+			</div>
+		</div>
+	</div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=0ec1654d-9727-4ff1-9ec2-83b404522a40&lang=ru_RU" type="text/javascript"></script>
+
+<script src="js/script-ymap.js" type="text/javascript"></script>
+<script src="js/script-modals.js" type="text/javascript"></script>
+<script src="js/script-plan.js" type="text/javascript"></script>
+
+
+
+
+<script>
+$('.owl-carousel-3').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    mouseDrag: false,
+    touchDrag: false,
+    nav: true,
+    animateOut: 'fadeOut',
+	navText: ["<i class='arrow-left'></i>","<i class='arrow-right'></i>"],
+    responsive:{
+        0:{
+            items:1
+        }
+    }
+})
+
+</script>
+
+<script>
+	jQuery(document).ready(function($) {
+		var $owl = $('.owl-carousel-slider');
+		  $owl.children().each( function( index ) {
+			jQuery(this).attr( 'data-position', index ); 
+		  });
+		  
+		  $owl.owlCarousel({
+			center: false,
+			nav:true,
+			loop: true,
+			autoplay: false,
+			items: 6,
+			margin: 32,
+			navText: ["<i class='arrow-left'></i>","<i class='arrow-right'></i>"],
+			responsive:{
+			  0:{
+				  items:1
+			  },
+			  600:{
+				  items:2
+			  },
+			  1000:{
+				  items:3
+			  }
+			}
+		  });
+		$(document).on('click', '.item', function() {
+		  $owl.trigger('to.owl.carousel', $(this).data( 'position' ) ); 
+		});
+	});
+</script>
+
+
+
+<script>
+const links = document.querySelectorAll('.tab-button'),
+	  contents = document.querySelectorAll('.content'),
+	  header = document.querySelector('.tab-buttons');
+
+function hideContent () {
+	contents.forEach(item => {
+		item.style.display = "none";
+	});
+	links.forEach(item => {
+		item.classList.remove('w--current');
+	})
+}
+
+function showTabContent(i = 0) {
+    contents[i].style.display = "flex";
+    links[i].classList.add('w--current');
+}
+
+hideContent();
+showTabContent();
+
+header.addEventListener('click', (e) => {
+    const target = e.target;
+    links.forEach((item, i) => {
+        if (target == item) {
+            hideContent();
+            showTabContent(i);
+        }
+    });
+});
+
+</script>
+
+<script>
+	const links1 = document.querySelectorAll('.tab-button1'),
+		  contents1 = document.querySelectorAll('.content1'),
+		  header1 = document.querySelector('.tab-buttons1');
+	
+	function hideContent1 () {
+		contents1.forEach(item => {
+			item.style.display = "none";
+		});
+		links1.forEach(item => {
+			item.classList.remove('w--current');
+		})
+	}
+	
+	function showTabContent1(i = 0) {
+		contents1[i].style.display = "flex";
+		links1[i].classList.add('w--current');
+	}
+	
+	hideContent1();
+	showTabContent1();
+	
+	header1.addEventListener('click', (e) => {
+		const target = e.target;
+		links1.forEach((item, i) => {
+			if (target == item) {
+				hideContent1();
+				showTabContent1(i);
+			}
+		});
+	});
+	
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	   $("#menu").on("click","a", function (event) {
+		   event.preventDefault();
+		   var id  = $(this).attr('href'),
+			   top = $(id).offset().top;
+		   $('body,html').animate({scrollTop: top}, 1500);
+	   });
+   });
+</script>
+
+
+
+<script type="text/javascript">
+  
+	let btn = document.querySelector('.main-content__btn'),
+	btnCloseSidebar = document.querySelector('.sidebar__close'),
+	linkMobileMenu = document.querySelectorAll('.header-menu__link'),
+	sidebar = document.querySelector('.sidebar');
+	
+	
+	btn.addEventListener('click', () => {
+	  sidebar.classList.remove('change-position-sidebar');
+	});
+	
+	btnCloseSidebar.addEventListener('click', () => {
+	  sidebar.classList.add('change-position-sidebar');
+	})
+
+	// contents.forEach(item => {
+	// 		item.style.display = "none";
+	// 	});
+
+	linkMobileMenu.forEach(item => {
+		item.addEventListener('click', () => {
+	  		sidebar.classList.add('change-position-sidebar');
+		})
+	})
+	// linkMobileMenu.addEventListener('click', () => {
+	//   sidebar.classList.add('change-position-sidebar');
+	// })
+	
+	</script>
+<script>
+
+var number, elInput;
+var element = document.getElementById("popup-form__phone"),
+maskOptions = {
+	mask: "+{7} (000) 000-00-00"
+},
+mask = IMask(element, maskOptions);
+(elInput = document.getElementById("popup-form__phone")).onblur = function() {
+	var e = mask.unmaskedValue.replace(/\D/g, "").slice(1);
+	number = e, numberStr = String(number)
+};
+
+</script>
+
+</body>
+</html>

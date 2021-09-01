@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <g fill="none" fill-rule="evenodd" opacity=".5">
+        <g>
+            <g>
+                <g transform="translate(-40 -2476) translate(40 2205) matrix(-1 0 0 1 60 271)">
+                    <circle cx="30" cy="30" r="30" fill="#FFF" fill-opacity=".722" opacity=".685"/>
+                    <circle cx="29.5" cy="29.5" r="23" fill="#FFF" stroke="#C1A271"/>
+                    <path stroke="#C1A271" stroke-width="2" d="M33.895 37L26 29.5 33.895 22" transform="matrix(-1 0 0 1 59.895 0)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

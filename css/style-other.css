@@ -1,0 +1,33 @@
+@media screen and (min-width: 1680px) {
+  .facade-prop {
+    margin-left: 40%;
+  }
+}
+
+
+@media screen and (min-width: 1460px) {
+  .facade-prop {
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width: 1088px) {
+  .header-menu__link {
+    padding: 10px;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 565px) {
+  .about-right__wrp-img {
+    width: 100%;
+    height: 480px;
+  }
+
+  .about-right__img-description {
+    width: 100%;
+  }
+
+}

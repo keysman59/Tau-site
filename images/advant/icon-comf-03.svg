@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="icon-visota-potolkov-a" x1="43.138%" x2="46.199%" y1="4.586%" y2="84.355%">
+      <stop offset="0%" stop-color="#CCAF75"/>
+      <stop offset="100%" stop-color="#BD8F47"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="72" height="72"/>
+    <polygon fill="url(#icon-visota-potolkov-a)" fill-rule="nonzero" points="25 0 0 0 0 3.516 12.389 3.516 3.575 12.502 6.013 14.988 10.69 10.22 10.69 34.814 6.013 30.046 3.575 32.532 12.356 41.484 0 41.484 0 45 25 45 25 41.484 12.472 41.484 21.253 32.532 18.814 30.046 14.138 34.814 14.138 10.22 18.814 14.988 21.253 12.502 12.438 3.516 25 3.516" opacity=".9" transform="translate(24 14)"/>
+  </g>
+</svg>

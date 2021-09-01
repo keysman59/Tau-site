@@ -1,0 +1,177 @@
+@media screen and (max-width: 479px) {
+  
+  .section-wrp {
+    padding: 39px 20px 11px 20px;
+  }
+
+  .section-subtitle {
+    font-size: 12px;
+    line-height: 2.33em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: none;
+  }
+  
+  .section-title {
+    margin-bottom: 40px;
+    font-size: 28px;
+    line-height: 1.21em;
+    font-weight: 400;
+    letter-spacing: 3.66px;
+  }
+  
+  /* HERO */
+
+  .hero {
+    background-position: 100% 100%;
+  }
+
+  .about-wrp {
+    padding: 40px 20px;
+  }
+
+  .hero-content__caption {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .hero-content__subtitle {
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.56em;
+    letter-spacing: 1.79px;
+  }
+
+  .about-left__subtitle {
+    font-size: 12px;
+    height: 2.33em;
+  }
+
+  .about-left__caption {
+    font-size: 28px;
+    line-height: 1.21em;
+    margin-bottom: 24px;
+  }
+
+  .about-left__text {
+    margin-bottom: 30px;
+    font-size: 12px;
+  }
+
+  .about-right__wrp-img {
+    width: 100vw;
+    max-height: none;
+    max-width: none;
+    margin-left: -20px;
+    margin-right: -20px;
+    height: 240px;
+  }
+
+  .about-right__img-description {
+    width: 100%;
+  }
+
+  /* facade */
+
+  .facade {
+    height: 473px;
+    /* background-position: 85% 100%; */
+    padding-top: 8px;
+  }
+
+  .facade__title {
+    margin-bottom: 14px;
+  }
+
+  .facade-empty {
+    display: none;
+  }
+
+  .facade-prop {
+    width: 100%;
+    margin-left: 0px; 
+  }
+
+  .prop-item {
+    width: 70%;
+    margin-left: auto;
+  }
+
+  /* desc */
+
+  .desc-right__title {
+    font-size: 21px;
+  }
+
+  .desc-right__text {
+    line-height: 1.30em;
+  }
+
+  /* advant */
+
+  .advant-item {
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .advant-item__img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .advant-item__text {
+    margin-left: 18px;
+  }
+
+  /* design */
+
+  .design-slider {
+    width: 100%;
+    height: 226px;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    padding-bottom: 50px;
+  }
+
+  .design-slider__caption {
+    display: none;
+  }
+
+  .design-slider__text {
+    display: none;
+  }
+
+  /* contacts */
+
+  .contact-map-div {
+    height: 280px;
+  }
+
+  .contact-block-half {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* planirovki */
+
+  .calc-img-div {
+    width: 105vw;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  
+  /* bottom */
+
+  .bottom__text {
+    font-size: 12px;
+  }
+
+  .bottom-social__img {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+
+}
